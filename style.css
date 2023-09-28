@@ -6,7 +6,9 @@
 }
 
 body {
-  background-color: #7bdaf3;
+/*   background-color: #7bdaf3; */
+  background-image: url("study-notebooks.jpg");
+  background-size: cover;
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-wrap: wrap;
