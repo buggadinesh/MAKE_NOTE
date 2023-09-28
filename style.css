@@ -15,10 +15,10 @@ body {
 }
 .datetime{
   font-size: 11px;
-  padding: 16px;
+  padding: 10px;
   position: fixed;
-  left: 0px;
-  top: 0px;
+  left: 5px;
+  top: 5px;
   background: #444444;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
