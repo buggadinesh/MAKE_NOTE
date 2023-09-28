@@ -20,7 +20,7 @@ function formatDate(date){
     const DAYS = ["SUnday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
-    return `${DAYS[date.getDay()]}, ${MONTHS[date.getMonth()]}, ${date.getDate()} ${date.getFullYear()}`;
+    return `${DAYS[date.getDay()]}, ${MONTHS[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
 }
 setInterval(() => {
     const now = new Date();
